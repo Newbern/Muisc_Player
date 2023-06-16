@@ -9,9 +9,9 @@ This Python code uses playsound module to play a song.
 import playsound
 
 # Once playsound is ran it finishes program before moving on
-
 playsound.playsound("Music.mp3")
 ~~~
+
 And uses a multiprocesser to split the thread and terminate the thread once pressing a key.
 ~~~bash
 from playsound import playsound
