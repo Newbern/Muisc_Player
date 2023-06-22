@@ -1,7 +1,7 @@
 from playsound import playsound
 import multiprocessing
 from time import sleep
-# hi
+
 def play():
     playsound("Music.mp3")
 if __name__ == "__main__":
