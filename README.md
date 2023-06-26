@@ -16,9 +16,10 @@ And uses a multiprocesser to split the thread and terminate the thread once pres
 ~~~bash
 from playsound import playsound
 from multiprocessing import Process
+if __name__ == "__main__":
+     M1 = Process(target=playsound, args=("Music.mp3",))
 
-M1 = Process(target=playsound, args=("Music.mp3",))
-M1.start()
-input(">>>")
-M1.terminate()
+     M1.start()
+     input(">>>")
+     M1.terminate()
 ~~~
